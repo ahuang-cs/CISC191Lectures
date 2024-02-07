@@ -25,5 +25,13 @@ public class Main {
         week.removeWeekends();
         System.out.println("Week without weekends: " + week);
         System.out.println("Random day from this week: " + week.getRandomDay());
+
+        try {
+            System.out.println(week.getWeek()[6]);
+        } catch(ArrayIndexOutOfBoundsException ex) {
+            System.out.println("An error occured: " + ex.getMessage());
+        }
+
+        System.out.println("This is the end of main()");
     }
 }
