@@ -18,6 +18,15 @@ public class Main {
             printErrorMessageAndExit(e.getMessage());
         }
 
+        try {
+            File file = new File(ROOT_DIRECTORY + "\\hello.txt");
+            file.copyFromResourcesArrayBuffered("hello.txt");
+            file = new File(ROOT_DIRECTORY + "\\hola.txt");
+            file.copyFromResourcesArrayBuffered("hola.txt");
+        } catch (IOException e) {
+            e.printStackTrace();
+            printErrorMessageAndExit(e.getMessage());
+        }
 
     }
 
