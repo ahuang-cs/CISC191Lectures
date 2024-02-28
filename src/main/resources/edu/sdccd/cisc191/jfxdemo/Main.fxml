@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="edu.sdccd.cisc191.jfxdemo.Main"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <stylesheets>
+        <URL value="@Main.css" />
+    </stylesheets>
+    <top>
+        <BorderPane styleClass="header-section">
+            <left>
+                <Label id="header-text" text="JavaFX Demo" />
+            </left>
+            <right>
+
+            </right>
+        </BorderPane>
+
+    </top>
+
+</BorderPane>
