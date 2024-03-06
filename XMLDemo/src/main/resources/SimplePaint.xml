@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<simplepaint version="1.0">
+    <background red='1' green='0.6' blue='0.2'/>
+    <curve>
+        <color red='0' green='0' blue='1'/>
+        <symmetric>false</symmetric>
+        <point x='83' y='96'/>
+        <point x='116' y='149'/>
+        <point x='159' y='215'/>
+        <point x='216' y='294'/>
+    </curve>
+</simplepaint>
