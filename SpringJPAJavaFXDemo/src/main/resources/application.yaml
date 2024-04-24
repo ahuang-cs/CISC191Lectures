@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: SpringJPAJavaFXDemo
+  datasource:
+    url: jdbc:h2:mem:vehicle;DB_CLOSE_ON_EXIT=FALSE;
+    username: h2
+    password: h2
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+      format-sql: true
+

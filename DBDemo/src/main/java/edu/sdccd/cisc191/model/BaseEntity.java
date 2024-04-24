@@ -1,15 +1,15 @@
-package edu.sdccd.cisc191;
+package edu.sdccd.cisc191.model;
 
-public class Student {
+public class BaseEntity {
     private int id;
     private String name;
 
-    public Student(String name, int id) {
+    public BaseEntity(String name, int id) {
         this.name = name;
         this.id = id;
     }
 
-    public Student(String name) {
+    public BaseEntity(String name) {
         this.name = name;
     }
 
