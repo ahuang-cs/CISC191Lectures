@@ -12,6 +12,7 @@
         <module>IODemo</module>
         <module>DoublyLinkedListDemo</module>
         <module>DBDemo</module>
+        <module>ConcurrencyDemo</module>
     </modules>
 
     <properties>
